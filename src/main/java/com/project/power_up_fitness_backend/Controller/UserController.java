@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 @RestController
-@CrossOrigin("http://localhost:3000")
-@RequestMapping("/api/User")
+@CrossOrigin("http://localhost:8080")
+@RequestMapping("/api/user")
 public class UserController {
 
     private final UserService userService;
